@@ -27,12 +27,15 @@ Following is the output on running brute_force.py file
 From all the possible 26 decryptions we can check manually which decryption gives a meaningful text. But if we want to make computer to know the meaningful message then we declare a constant variable which consists of repeated English Words. It can be as follows : {‘the’,’a’,’an’,’am’,’it’,’he’,’she’,’or’,’and’,….}.
 If some of these words match with any of the decryptions then that gives the final decrypted text.
 
-## Key Breaking using Frequenct Analysis
+Blog Link on Caesar Cipher:
+https://medium.com/@aanshsavla2453/brute-force-attack-on-caesar-cipher-in-python-5972cdcff5b6
+
+## Key Breaking using Frequency Analysis
 
 Below diagram shows frequency of 26 letters in an English text paragraph.
 <img width="741" alt="image" src="https://github.com/user-attachments/assets/8bef9a56-d6d3-4ae2-b27b-c554dd06401c">
 
-Hence if we assume this to be true, the above message can also be decrypted by subtracting the maximum occuring letter in the encrypted text with letter 'e' to find the final key.
+Hence if we assume this to be true for the above case then the above message can also be decrypted by subtracting the maximum occuring letter in the encrypted text with letter 'e' to find the final key.
 
 Following is the output on running break.py
 
